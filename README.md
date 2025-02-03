@@ -4,3 +4,4 @@ Plugins used:
 - Tasks
 - Excalidraw
 - Advanced Tables
+- Data view
