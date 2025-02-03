@@ -1,3 +1,35 @@
 {
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ]
 }
