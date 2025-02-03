@@ -3,7 +3,7 @@ Space over time studying the same topics, preferably after sleeping at least onc
 ### Retrieval
 Remember from memory everything that you can about a subject: write it out, speak about it, really bring all that is possible about it. Can be useful for remembering specific concepts or more high level topics. Check if you information is correct after, for information you really want to not forget do this multiple times over different days.
 ### Interleaving
-When studying, try to fit in multiple subjects at once, for example: 30 min Algorithms, 30 min Math, 30 min Networks etc. If wanting to focus specifically on a subject like algorithms, don't focus on a single algorithm but multiple. This requires successfully finishing each step, don't stop in the middle of a new concept.
+When studying, try to fit in multiple related subjects at once, for example: 30 min Algorithms, 30 min Math.
 ### Elaboration
 When going over a concept, dive deep on it, try to create problems or questions related to that concept and answer those questions (you can verify correctness later).
 ### Dual Coding
