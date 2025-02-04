@@ -8,6 +8,7 @@
 - Parameterized Algorithms by Marek Cygan, Fedor Fomin, Lukasz Kowalik, etc
 - The Algorithm Design Manual by Steven S Skiena
 - The TCP-IP Guide by Charles Kozierok
+- Ethereum Book (github) by Andreas M. Antonopoulos, Gavin Wood
 
 Yes, there are a lot of books.
 The idea is to study a little bit of whatever I feel like everyday, which means I can alternate between very different topics each day and even during the same day.

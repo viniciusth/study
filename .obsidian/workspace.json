@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/Books.md",
+                "file": "books/Mathematics for Computer Science/Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Books"
+              "title": "Overview"
             }
           }
         ]
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Books.md",
+                "file": "books/Mathematics for Computer Science/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Books"
+              "title": "Outgoing links from Overview"
             }
           },
           {
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Books.md",
+                "file": "books/Mathematics for Computer Science/Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Books"
+              "title": "Outline of Overview"
             }
           }
         ],
@@ -183,16 +183,18 @@
   },
   "active": "439e969610ed7649",
   "lastOpenFiles": [
+    "books/Ethereum Book/Overview.md",
+    "books/Explorations In Monte Carlo Methods/Overview.md",
+    "books/Ethereum Book",
+    "books/Books.md",
     "books/The TCP-IP Guide/Overview.md",
     "books/The Algorithm Design Manual/Overview.md",
     "books/Parameterized Algorithms/Overview.md",
     "books/Mathematics for Computer Science/Overview.md",
     "books/Linear Algebra Done Right/Overview.md",
     "books/Introduction to Modern Cryptography/Overview.md",
-    "books/Explorations In Monte Carlo Methods/Overview.md",
     "books/Designing Data Intensive Applications/Overview.md",
     "books/Database Internals/Overview.md",
-    "books/Books.md",
     "books/Mathematics for Computer Science",
     "books/Database Internals/Introduction/DBMS Architecture.md",
     "books/The Algorithm Design Manual",
@@ -203,7 +205,6 @@
     "books/Parameterized Algorithms",
     "books/Designing Data Intensive Applications",
     "books/The TCP-IP Guide",
-    "Untitled",
     "tasks.md",
     "sketch.md",
     "misc/Studying Techniques.md",
