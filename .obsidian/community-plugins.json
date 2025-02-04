@@ -1,6 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-tasks-plugin",
   "table-editor-obsidian",
-  "dataview"
+  "dataview",
+  "obsidian-spaced-repetition"
 ]

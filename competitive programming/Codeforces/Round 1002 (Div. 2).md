@@ -1,6 +1,7 @@
-- [x] C 📅 2025-02-03 ✅ 2025-02-03
-- [x] D 📅 2025-02-03 ✅ 2025-02-03
-- [ ] E 📅 2025-02-09 
+- [x] C 
+- [x] D 
+- [ ] E 
+
 [LINK](https://codeforces.com/contest/2059)
 ### C
 #adhoc #mex #2d #overcomplicate
