@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/Database Internals/Introduction/DBMS Architecture.md",
+                "file": "books/Books.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DBMS Architecture"
+              "title": "Books"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 337.5
   },
   "right": {
     "id": "ec70e2b1b27234e7",
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Database Internals/Introduction/DBMS Architecture.md",
+                "file": "books/Books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DBMS Architecture"
+              "title": "Outgoing links from Books"
             }
           },
           {
@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Database Internals/Introduction/DBMS Architecture.md",
+                "file": "books/Books.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DBMS Architecture"
+              "title": "Outline of Books"
             }
           }
         ],
@@ -183,21 +183,35 @@
   },
   "active": "439e969610ed7649",
   "lastOpenFiles": [
-    "misc/Studying Techniques.md",
+    "books/The TCP-IP Guide/Overview.md",
+    "books/The Algorithm Design Manual/Overview.md",
+    "books/Parameterized Algorithms/Overview.md",
+    "books/Mathematics for Computer Science/Overview.md",
+    "books/Linear Algebra Done Right/Overview.md",
+    "books/Introduction to Modern Cryptography/Overview.md",
+    "books/Explorations In Monte Carlo Methods/Overview.md",
+    "books/Designing Data Intensive Applications/Overview.md",
+    "books/Database Internals/Overview.md",
+    "books/Books.md",
+    "books/Mathematics for Computer Science",
     "books/Database Internals/Introduction/DBMS Architecture.md",
-    "books/Database Internals/Introduction",
+    "books/The Algorithm Design Manual",
+    "books/Linear Algebra Done Right",
+    "books/Algebra - Notes from the Underground",
+    "books/Explorations In Monte Carlo Methods",
+    "books/Introduction to Modern Cryptography",
+    "books/Parameterized Algorithms",
+    "books/Designing Data Intensive Applications",
+    "books/The TCP-IP Guide",
+    "Untitled",
+    "tasks.md",
+    "sketch.md",
+    "misc/Studying Techniques.md",
     "books/Database Internals/DBMS Architecture.md",
     "books/Database Internals/Introduction.md",
-    "tasks.md",
     "competitive programming/Codeforces/Round 1002 (Div. 2).md",
-    "sketch.md",
     "README.md",
     "Untitled.md",
-    "competitive programming/Codeforces",
-    "Untitled",
-    "competitive programming",
-    "misc",
-    "Database Internals/Introduction.md",
-    "Database Internals"
+    "Database Internals/Introduction.md"
   ]
 }
