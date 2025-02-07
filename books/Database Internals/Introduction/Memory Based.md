@@ -6,6 +6,6 @@
 - For recovery, results are usually written to a sequential log file and used as [[Write-ahead logs]]
 
 
-#flashcards/DatabaseInternals/Introduction
+#flashcards/databases 
 
 What is the biggest issue with memory based DBMS's?::Lack of durability

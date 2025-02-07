@@ -3,6 +3,6 @@
 - Makes queries accessing individual fields of multiple different rows slower.
 
 
-#flashcards/DatabaseInternals/Introduction 
+#flashcards/databases 
 
 What access patterns make row oriented DB's faster than column oriented?::When most columns of a row are returned by queries

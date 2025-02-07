@@ -6,7 +6,7 @@
 - Column families store each entry for the same row sequentially sorted by timestamp, this makes it quick to find data related to a row and which versions it had over time.
 
 
-#flashcards/DatabaseInternals/Introduction 
+#flashcards/databases
 
 What access patterns make column oriented DB's faster than row oriented?::When queries span many rows or compute aggregates of a subset of columns.
 

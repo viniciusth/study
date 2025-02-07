@@ -6,6 +6,6 @@
 - Slower than memory-based storage.
 
 
-#flashcards/DatabaseInternals/Introduction 
+#flashcards/databases 
 
 What makes disk based storage harder to implement?::Manually needing to manage the disk: data references, serialization, freed memory, fragmentation.
