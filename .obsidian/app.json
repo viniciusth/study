@@ -3,5 +3,6 @@
   "newFileLocation": "current",
   "newLinkFormat": "absolute",
   "attachmentFolderPath": "./",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "alwaysUpdateLinks": true
 }

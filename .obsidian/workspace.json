@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/Database Internals/Overview.md",
+                "file": "books/Ethereum Book/Quotes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Quotes"
             }
           },
           {
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/Database Internals/Introduction/Row oriented.md",
+                "file": "books/Database Internals/Row oriented.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -209,19 +209,22 @@
   },
   "active": "439e969610ed7649",
   "lastOpenFiles": [
-    "books/Database Internals/Introduction/DBMS Architecture.md",
-    "books/Database Internals/Introduction/Row oriented.md",
-    "books/Database Internals/Introduction/Memory Based.md",
-    "books/Database Internals/Introduction/Disk Based.md",
-    "books/Database Internals/Introduction/Column Oriented.md",
-    "books/Database Internals/Introduction/Architecture.md",
+    "books/Ethereum Book/Overview.md",
+    "books/Ethereum Book/Quotes.md",
+    "books/Books.md",
+    "books/Database Internals/Architecture.md",
+    "books/Database Internals/Column Oriented.md",
+    "books/Database Internals/Data files.md",
+    "books/Database Internals/DBMS Architecture.md",
+    "books/Database Internals/Disk Based DB.md",
+    "books/Database Internals/Index files.md",
+    "books/Database Internals/Memory Based DB.md",
+    "books/Database Internals/Overview.md",
+    "books/Database Internals/Row oriented.md",
     "competitive programming/Codeforces/Round 1002 (Div. 2).md",
     "todo.md",
-    "books/Database Internals/Overview.md",
-    "books/Database Internals/Introduction/Index files.md",
     "tech/Temporal/Overview.md",
     "sketch.md",
-    "books/Books.md",
     "books/The TCP-IP Guide/Overview.md",
     "books/The Algorithm Design Manual/Overview.md",
     "books/Parameterized Algorithms/Overview.md",
@@ -229,10 +232,8 @@
     "books/Linear Algebra Done Right/Overview.md",
     "books/Introduction to Modern Cryptography/Overview.md",
     "books/Explorations In Monte Carlo Methods/Overview.md",
-    "books/Ethereum Book/Overview.md",
     "books/Designing Data Intensive Applications/Overview.md",
     "tech/Temporal/Untitled",
-    "books/Database Internals/Introduction/Data files.md",
     "README.md",
     "tech/Temporal",
     "tech",
@@ -243,7 +244,6 @@
     "books/Algebra - Notes from the Underground",
     "books/Explorations In Monte Carlo Methods",
     "books/Introduction to Modern Cryptography",
-    "misc/Studying Techniques.md",
-    "books/Database Internals/DBMS Architecture.md"
+    "misc/Studying Techniques.md"
   ]
 }

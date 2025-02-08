@@ -2,13 +2,13 @@
 - [x] recall what you can, then reread and adjust
 
 
-![[books/Database Internals/Introduction/Architecture]]
+![[books/Database Internals/Architecture]]
 
 ### Decisions
 DBMS's can have many different architectural choices 
-- [[Row oriented]] vs [[Column Oriented]]
-- [[Disk Based]] vs [[Memory Based]]
-Other important concepts: [[Data files]] and [[Index files]].
+- [[books/Database Internals/Row oriented]] vs [[books/Database Internals/Column Oriented]]
+- [[books/Database Internals/Disk Based DB]] vs [[books/Database Internals/Memory Based DB]]
+Other important concepts: [[books/Database Internals/Data files]] and [[books/Database Internals/Index files]].
 ### Definitions for DBMS
 #### Transaction Manager
 Schedules transactions, ensures logically consistent state.
