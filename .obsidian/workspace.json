@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/Ethereum Book/Quotes.md",
+                "file": "todo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quotes"
+              "title": "todo"
             }
           },
           {
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#inprogress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,32 +209,33 @@
   },
   "active": "439e969610ed7649",
   "lastOpenFiles": [
-    "books/Ethereum Book/Overview.md",
-    "books/Ethereum Book/Quotes.md",
-    "books/Books.md",
-    "books/Database Internals/Architecture.md",
-    "books/Database Internals/Column Oriented.md",
-    "books/Database Internals/Data files.md",
-    "books/Database Internals/DBMS Architecture.md",
-    "books/Database Internals/Disk Based DB.md",
-    "books/Database Internals/Index files.md",
-    "books/Database Internals/Memory Based DB.md",
-    "books/Database Internals/Overview.md",
-    "books/Database Internals/Row oriented.md",
-    "competitive programming/Codeforces/Round 1002 (Div. 2).md",
-    "todo.md",
-    "tech/Temporal/Overview.md",
+    "README.md",
     "sketch.md",
-    "books/The TCP-IP Guide/Overview.md",
-    "books/The Algorithm Design Manual/Overview.md",
-    "books/Parameterized Algorithms/Overview.md",
+    "todo.md",
+    "papers-blogs-presentations/todo.md",
+    "misc/Studying Techniques.md",
+    "tech/Temporal/Overview.md",
+    "books/Database Internals/Overview.md",
+    "books/Designing Data Intensive Applications/Overview.md",
     "books/Mathematics for Computer Science/Overview.md",
+    "books/Parameterized Algorithms/Overview.md",
     "books/Linear Algebra Done Right/Overview.md",
     "books/Introduction to Modern Cryptography/Overview.md",
     "books/Explorations In Monte Carlo Methods/Overview.md",
-    "books/Designing Data Intensive Applications/Overview.md",
+    "books/Ethereum Book/Oracles.md",
+    "books/Ethereum Book/Overview.md",
+    "books/Ethereum Book/Quotes.md",
+    "books/Ethereum Book/Transactions.md",
+    "books/The Algorithm Design Manual/Overview.md",
+    "books/The TCP-IP Guide/Overview.md",
+    "competitive programming/Codeforces/Round 1002 (Div. 2).md",
+    "books/Database Internals/Row oriented.md",
+    "books/Ethereum Book/ERC721.md",
+    "books/Ethereum Book/ERC20.md",
+    "books/Ethereum Book/Ethereum Cryptography.md",
+    "books/Ethereum Book/Smart Contracts.md",
+    "books/Books.md",
     "tech/Temporal/Untitled",
-    "README.md",
     "tech/Temporal",
     "tech",
     "books/Ethereum Book",
@@ -243,7 +244,6 @@
     "books/Linear Algebra Done Right",
     "books/Algebra - Notes from the Underground",
     "books/Explorations In Monte Carlo Methods",
-    "books/Introduction to Modern Cryptography",
-    "misc/Studying Techniques.md"
+    "books/Introduction to Modern Cryptography"
   ]
 }
