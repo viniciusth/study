@@ -1,0 +1,1 @@
+A relation that is [[books/Algebra - Notes from the Underground/Basic Relations#Reflexive|Reflexive]], [[books/Algebra - Notes from the Underground/Basic Relations#Transitive|Transitive]] and [[books/Algebra - Notes from the Underground/Basic Relations#Antisymmetric|Antisymmetric]]

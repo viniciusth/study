@@ -1,1 +1,1 @@
-#todo
+A relation that is [[books/Algebra - Notes from the Underground/Basic Relations#Symmetric|Symmetric]], [[books/Algebra - Notes from the Underground/Basic Relations#Reflexive|Reflexive]] and [[books/Algebra - Notes from the Underground/Basic Relations#Transitive|Transitive]].
