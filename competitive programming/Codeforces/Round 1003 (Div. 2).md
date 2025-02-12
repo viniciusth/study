@@ -17,5 +17,7 @@ For each 0 that exists in the array you need to check if adding it doesnt break 
 -> heuristic: check only first 0 (argue about this)
 -> AC!
 for the heuristic, it makes sense because we are comparing for each $x$ if suffix mex after its first appearance is $\leq x$, thus if we choose a 0 that is AFTER the first 0 and it works, we can also pick the first 0, so it becomes a TTTTFFFF case.
+
+-> read the tutorial for this one, I could've just checked if the condition holds for the array with the first zero instead of creating a new condition to check lol
 ### F
 ### G
