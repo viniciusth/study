@@ -1,0 +1,1 @@
+- The sign of having reached this stage is simply being able to place your mind on your chosen object of meditation for even a second or two.

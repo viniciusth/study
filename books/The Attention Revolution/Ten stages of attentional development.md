@@ -1,0 +1,11 @@
+1. [[Directed attention]]
+2. [[Continuous attention]]
+3. [[Resurgent attention]]
+4. [[Close attention]]
+5. [[Tamed attention]]
+6. [[Pacified attention]]
+7. [[Fully pacified attention]]
+8. [[Single-pointed attention]]
+9. [[Attentional balance]]
+10. [[Shamatha]]
+
