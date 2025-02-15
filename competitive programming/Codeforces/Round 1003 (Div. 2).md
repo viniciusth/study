@@ -1,6 +1,7 @@
 [LINK](https://codeforces.com/contest/2067)
 
 ### E
+#mex #adhoc
 $$\forall i, min(a_1, \ldots, a_i) \geq mex(a_{i+1}, \ldots, a_n)$$
 What shape does an array have for that to be true for all i?
 $a_1 \geq 0$, which means that $mex(a_2, \ldots, a_n) = 0$ if $a_1=0$. Thus an array can't contain more than one 0. If the array contains no zeros, mex will always be 0 and youre good.
@@ -20,4 +21,17 @@ for the heuristic, it makes sense because we are comparing for each $x$ if suffi
 
 -> read the tutorial for this one, I could've just checked if the condition holds for the array with the first zero instead of creating a new condition to check lol
 ### F
+Answer will be $3f(0)$ where $f(0)$ computes the answer by starting to put values into $P$ and handling putting other values in either $Q$ or $R$.
+
+Observations:
+- lets say we're at the state X 0 0 after $i - 1$ operations, we can only apply to $Q$ or $R$ if $a_i = X$. if we use it on $Q$ for example we'll have X X 0. We have two options: move to X X X or X X Y
+- X X X is equivalent to 0 0 0.
+- X X 0 is equivalent to X 0 0 (when the next element != X, which is the only case in which this matters)
+- $prefix\_xor = P \oplus Q \oplus R$
+if at element i, you know $P \oplus Q \oplus R$
+```
+def f(i, xor):
+	
+```
+
 ### G
