@@ -1,8 +1,4 @@
 Some tables for when not sure what to do.
-#### In Progress Notes
-```dataview
-table file.path, round((date(now) - file.mtime).days, 2) as "Days since modified" from #inprogress sort file.mtime asc
-```
 #### TODO Notes
 ```dataview
 table file.path as Path from #todo sort file.mtime asc

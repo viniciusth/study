@@ -58,32 +58,57 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers-blogs-presentations-random/Birthday Paradox.md",
+                "file": "papers-blogs-presentations-random/Merkle Tree.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Birthday Paradox"
+              "title": "Merkle Tree"
+            }
+          },
+          {
+            "id": "73fc9fee3ab176c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers-blogs-presentations-random/Merkle Tree.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Merkle Tree"
+            }
+          },
+          {
+            "id": "3e47036ebcf15c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "papers-blogs-presentations-random/Radix Trie.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Radix Trie"
             }
           },
           {
             "id": "4e3658487af227c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/Database Internals/Row oriented.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Row oriented"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -254,35 +279,35 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f114ceab92f1f9fa",
+  "active": "3e47036ebcf15c65",
   "lastOpenFiles": [
-    "competitive programming/Codeforces/Round 1003 (Div. 2).md",
+    "papers-blogs-presentations-random/todo.md",
+    "papers-blogs-presentations-random/Merkle Tree.md",
+    "Excalidraw/Merkle tree example.md",
+    "papers-blogs-presentations-random/Drawing 2025-02-15 19.53.00.excalidraw.md",
+    "books/Books.md",
     "papers-blogs-presentations-random/Birthday Paradox.md",
-    "books/Introduction to Modern Cryptography/Chebyshev's Inequality.md",
-    "books/Introduction to Modern Cryptography/Expected Value.md",
     "books/Introduction to Modern Cryptography/Markov's Inequality.md",
-    "books/Introduction to Modern Cryptography/Bayes Theorem.md",
+    "books/Introduction to Modern Cryptography/Expected Value.md",
+    "books/Introduction to Modern Cryptography/Chebyshev's Inequality.md",
     "books/Introduction to Modern Cryptography/Basic Probability.md",
-    "books/Algebra - Notes from the Underground/Overview.md",
-    "competitive programming/Codeforces/Round 1002 (Div. 2).md",
+    "books/Parameterized Algorithms/FPT Algorithms.md",
+    "books/The Algorithm Design Manual/Overview.md",
     "books/The Attention Revolution/Directed attention.md",
     "books/The Attention Revolution/Mindfulness.md",
-    "books/The Attention Revolution/Overview.md",
     "books/The Attention Revolution/Ten stages of attentional development.md",
-    "papers-blogs-presentations-random/todo.md",
-    "books/The Attention Revolution",
-    "books/Algebra - Notes from the Underground/Surjective Function.md",
-    "books/Algebra - Notes from the Underground/Quotient and Equivalence Classes.md",
-    "books/Algebra - Notes from the Underground/Equivalence Relation.md",
-    "books/Algebra - Notes from the Underground/Order Relation.md",
-    "books/Algebra - Notes from the Underground/Basic Relations.md",
-    "books/Algebra - Notes from the Underground/Injective Function.md",
-    "books/Algebra - Notes from the Underground/Universal Property of Quotients.md",
-    "books/Algebra - Notes from the Underground/Canonical Decomposition.md",
+    "todo.md",
     "books/Algebra - Notes from the Underground/Bijective Function.md",
-    "Excalidraw/Surjective.md",
-    "Excalidraw/Injective.md",
-    "Excalidraw/Bijective.md",
+    "books/Algebra - Notes from the Underground/Basic Relations.md",
+    "books/Algebra - Notes from the Underground/Equivalence Relation.md",
+    "books/Algebra - Notes from the Underground/Injective Function.md",
+    "books/Algebra - Notes from the Underground/Order Relation.md",
+    "books/Algebra - Notes from the Underground/Surjective Function.md",
+    "books/Algebra - Notes from the Underground/Universal Property of Quotients.md",
+    "books/Database Internals/Data files.md",
+    "books/Database Internals/Overview.md",
+    "books/Database Internals/Index files.md",
+    "books/The Attention Revolution",
     "Excalidraw",
     "tech/Temporal/Untitled",
     "tech/Temporal",

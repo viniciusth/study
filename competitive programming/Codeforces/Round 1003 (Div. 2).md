@@ -21,17 +21,53 @@ for the heuristic, it makes sense because we are comparing for each $x$ if suffi
 
 -> read the tutorial for this one, I could've just checked if the condition holds for the array with the first zero instead of creating a new condition to check lol
 ### F
+#xor #dp
 Answer will be $3f(0)$ where $f(0)$ computes the answer by starting to put values into $P$ and handling putting other values in either $Q$ or $R$.
 
 Observations:
 - lets say we're at the state X 0 0 after $i - 1$ operations, we can only apply to $Q$ or $R$ if $a_i = X$. if we use it on $Q$ for example we'll have X X 0. We have two options: move to X X X or X X Y
 - X X X is equivalent to 0 0 0.
-- X X 0 is equivalent to X 0 0 (when the next element != X, which is the only case in which this matters)
-- $prefix\_xor = P \oplus Q \oplus R$
-if at element i, you know $P \oplus Q \oplus R$
-```
-def f(i, xor):
-	
-```
 
+- - -
+need some hints:
+if at element i, you know $P \oplus Q \oplus R = prefix\_xor_i$ and the state must be a permutation of $(prefix\_xor_i, x, x)$ for some x.
+- - - 
+
+Here's a python recursive implementation that solves the problem:
+```python
+def f(i, xor):
+    if i == n:
+        return 1
+    ans = 0
+    mult = 3 if p[i-1] == xor else 1
+    ans += f(i+1, xor) * mult
+    if (a[i] ^ xor) == p[i-1]:
+        ans += 2*f(i+1, p[i-1])
+    return ans
+```
+$p[i]$ is the prefix xor. transitions:
+- move forward maintaining the value x as the same, if $p[i-1] = xor$ this means that we have (x, x, x) and we can select any of the 3 to continue.
+- if $a[i] \oplus x = p[i-1]$ then we can "swap" the x to the current prefix in two ways, next step becomes $(p[i-1], p[i-1], x) = (p[i-1], p[i-1], p[i])$
+How to optimize? second index potentially has N values.
+
+For the second transition to happen, we must have $p[i-1] \oplus a[i] = x \iff p[i] = x$, which means the x can only change in select positions. Still looks like it can have N/3 different values.
+
+bottom up dp:
+```
+dp[i][x] = ways to place i+1 elements, with 2 equal to x.
+dp[0][0] = 1
+S = {0}
+for i in 1..n:
+	for x in S:
+		// we are placing the ith element into the solution, 
+		// current state is (x, x, p[i-1] ?? 0)
+		if p[i-1] == x { // we can apply to all 3
+			dp[i][x] += dp[i-1][x]*3
+		} else dp[i][x] += dp[i-1][x]
+		if (a[i] ^ x) == p[i-1] { // we can make (x, p[i-1], p[i-1])
+			dp[i][p[i-1]] += dp[i-1][x] * 2
+		}
+```
+we only increase 2 dp values at every i: $x = p[i-1], x = p[i]$, so we can optimize it with a map
 ### G
+#todo

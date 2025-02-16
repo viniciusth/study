@@ -15,3 +15,7 @@ Probability of $E_1$ occurring given $E_2$ occurred.
 $Pr[E_1 | E_2] = \frac{Pr[E_1 \land E_2]}{Pr[E_2]}$
 -> if $E_1$ and $E_2$ are independent, then $Pr[E_1 | E_2] = Pr[E_1]$
 see: [[Bayes Theorem]]
+
+#flashcards/probability
+What does $Pr[X | Y]$ mean?::Probability of X happening given that Y happened.
+How do you derive a formula for $Pr[X|Y]$? Hint: use $Pr[X \land Y]$.::$\frac{Pr[X\land Y]}{Pr[Y]}$.
