@@ -11,3 +11,8 @@ The client can then compute:
 - $X_2 = \mathcal{H}(T_4||X_1) = T_2$
 - $X_3 = \mathcal{H}(X_2||T_3)=T_1$
 - $a_2$ is valid $\iff X_3 = T_1$.
+
+#flashcards/cryptography
+What data needs to be stored by client & server when using a merkle tree?::Clients need to maintain the hash of the root of the tree, the server maintains the entire tree.
+
+What values must be returned by a server so a client can verify the validity of the received data? i.e. what is a merkle proof?::The request data plus all neighbor values in the tree, so the user can rebuild the root hash based on it.

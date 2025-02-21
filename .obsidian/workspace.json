@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers-blogs-presentations-random/Radix Trie.md",
+                "file": "competitive programming/Codeforces/Educational 174.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Radix Trie"
+              "title": "Educational 174"
             }
           },
           {
@@ -281,16 +281,22 @@
   },
   "active": "3e47036ebcf15c65",
   "lastOpenFiles": [
-    "papers-blogs-presentations-random/todo.md",
-    "papers-blogs-presentations-random/Merkle Tree.md",
+    "competitive programming/Codeforces/Round 1004 (Div. 2).md",
+    "competitive programming/Codeforces/Educational 174.md",
+    "competitive programming/Codeforces/Round 1004 (Div.2).md",
+    "competitive programming/Codeforces/Round 1002 (Div. 2).md",
     "Excalidraw/Merkle tree example.md",
+    "books/Introduction to Modern Cryptography/Expected Value.md",
+    "books/Introduction to Modern Cryptography/Bayes Theorem.md",
+    "books/Introduction to Modern Cryptography/Basic Probability.md",
+    "papers-blogs-presentations-random/Radix Trie.md",
+    "papers-blogs-presentations-random/todo.md",
+    "papers-blogs-presentations-random/Birthday Paradox.md",
+    "papers-blogs-presentations-random/Merkle Tree.md",
     "papers-blogs-presentations-random/Drawing 2025-02-15 19.53.00.excalidraw.md",
     "books/Books.md",
-    "papers-blogs-presentations-random/Birthday Paradox.md",
     "books/Introduction to Modern Cryptography/Markov's Inequality.md",
-    "books/Introduction to Modern Cryptography/Expected Value.md",
     "books/Introduction to Modern Cryptography/Chebyshev's Inequality.md",
-    "books/Introduction to Modern Cryptography/Basic Probability.md",
     "books/Parameterized Algorithms/FPT Algorithms.md",
     "books/The Algorithm Design Manual/Overview.md",
     "books/The Attention Revolution/Directed attention.md",
@@ -301,12 +307,6 @@
     "books/Algebra - Notes from the Underground/Basic Relations.md",
     "books/Algebra - Notes from the Underground/Equivalence Relation.md",
     "books/Algebra - Notes from the Underground/Injective Function.md",
-    "books/Algebra - Notes from the Underground/Order Relation.md",
-    "books/Algebra - Notes from the Underground/Surjective Function.md",
-    "books/Algebra - Notes from the Underground/Universal Property of Quotients.md",
-    "books/Database Internals/Data files.md",
-    "books/Database Internals/Overview.md",
-    "books/Database Internals/Index files.md",
     "books/The Attention Revolution",
     "Excalidraw",
     "tech/Temporal/Untitled",
