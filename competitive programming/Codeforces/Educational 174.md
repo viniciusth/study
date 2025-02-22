@@ -1,5 +1,6 @@
 https://codeforces.com/contest/2069
 ### E
+#greedy #strings
 in a string S, each character will have at most 3 options on how to be separated.
 aba & bab are the only cases where a character will have 3 options
 
@@ -36,3 +37,17 @@ failed, lets see a hint from editorial:
 > use ab as much as you can on abab, ba on baba, then try filling
 ---
 ### F
+At first look, it obviously requires using [[papers-blogs-algorithms-random/Dynamic Connectivity D&C|Dynamic Connectivity D&C]].
+Using that, we can then analyze the problem without needing to worry about removals, how do we solve it then?
+
+$$B \subseteq A \iff (\forall u,v \ \ C_B[u] = C_B[v] \implies C_A[u] = C_B[v])$$
+We want to avoid the case $T \implies F$, if adding an edge creates a case like that, then we need to increase the amount of edges we need by 1.
+
+One thing I first thought of is analyzing all possible pairs of that implication when adding an edge, (X, y, z) means adding edge at graph X, y is the value of $C_A[u] = C_A[v]$ and z is the value of $C_B[u] = C_B[v]$:
+1. (A, 0, 0) -> adding this edge will just help future queries.
+2. (A, 0, 1) -> adding this edge will remove one $T \implies F$ case, ans -= 1.
+3. (A, 1, 0) -> same component already, nothing really changes.
+4. (A, 1, 1) -> same as above.
+5. (B, 0, 0) -> we're going to create a new $T \implies F$ case, ans += 1.
+6. .. rest of analysis is going to be the same, we aren't going to change the ans.
+thus ans only changes on (A, 0, 0) and (B, 0, 0).
