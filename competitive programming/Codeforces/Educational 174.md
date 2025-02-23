@@ -37,6 +37,7 @@ failed, lets see a hint from editorial:
 > use ab as much as you can on abab, ba on baba, then try filling
 ---
 ### F
+#divideandconquer #dsu
 At first look, it obviously requires using [[papers-blogs-algorithms-random/Dynamic Connectivity D&C|Dynamic Connectivity D&C]].
 Using that, we can then analyze the problem without needing to worry about removals, how do we solve it then?
 
@@ -51,3 +52,10 @@ One thing I first thought of is analyzing all possible pairs of that implication
 5. (B, 0, 0) -> we're going to create a new $T \implies F$ case, ans += 1.
 6. .. rest of analysis is going to be the same, we aren't going to change the ans.
 thus ans only changes on (A, 0, 0) and (B, 0, 0).
+Doesn't work because it doesn't handle components of size > 1 correctly..
+
+Ah! if instead of maintaining two DSU's $A$ & $B$, you maintain $A$ & $A \cup B$ then:
+if connecting an edge on $A$ we cause a merge and $A \cup B$ doesn't, then we just removed one $T \implies F$ case. 
+Similarly when adding to B, if $A \cup B$ had a merge, then this definitely created a $T \implies F$ case.
+
+Worked! AC :D 
