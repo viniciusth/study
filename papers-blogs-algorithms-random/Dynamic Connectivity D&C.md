@@ -55,3 +55,4 @@ This means that there will be no more steps in the recursion from there, since t
 
 Since our D&C recursion mimics a segment tree, we will have the same complexity $O(log \space n)$ for each query we carry through, and $O(q \space log \space n)$ for doing all queries simultaneously. Since we also operate on DSU with $O(log \space q)$ for merge + rollback, the total complexity becomes $O(q \space log \space q \space log \space n)$.
 
+Note: this approach works to support offline removal for any structure that implement addition and rollback.

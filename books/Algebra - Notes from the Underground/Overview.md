@@ -1,1 +1,0 @@
-Just read appendix A... wow there's a lot of things to remember, hopefully tomorrow I can actually start reading the book

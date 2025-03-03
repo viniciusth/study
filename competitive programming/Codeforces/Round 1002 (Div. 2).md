@@ -12,10 +12,10 @@ a_{3,1} & a_{3,2} & \ldots  & 0      & a_{3, n-1} & a_{3, n} \\
 Thus, for row 2 to have $mex = 1$ we need $a_{2,n}=1$, for row 3 we need $a_{3,n-1} + a_{3,n} = 2 \iff a_{3, n-1} = 1 \land a_{3, n} = 1$, and in general for row $i$ we need that the suffix of size $i-1$ contains only 1's.
 With this observation we can simply count the size of suffix 1's of each row, put them in a set and grab the one with the smallest amount with value >= than the current mex and pop it, continue until you cant find any more.
 ### D
-#dijkstra #upsolve
+#dijkstra 
 Didn't read during contest (mistake), looks pretty easy, for each pair (u, v) that is contained in both graphs we need to reach either u or v in the lowest cost possible, just run dijkstra $dist[u1][u2]$ and simulate the moves, super easy since $O(n^2\log{n})$ is allowed.
 ## E
-#upsolve #revisit
+#revisit
 Thinking about the operation in 1D seems to give a pretty interesting transformation:
 1st sample: 2 6 3 4, operation (1, 1) makes 1 2 6 3, basically you choose a starting point $i \cdot m, 0 \leq i < n$ to insert an element, and then pop the last element of the 1D array.
 #### first try

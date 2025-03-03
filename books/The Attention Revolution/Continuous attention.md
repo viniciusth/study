@@ -1,0 +1,1 @@
+- You can now focus on your breath for some small periods, but yours mind still wanders most of the time
